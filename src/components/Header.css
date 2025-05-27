@@ -2,9 +2,6 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 15vh;
     background: linear-gradient(to right, #56545E, #B3AEC4);
@@ -16,7 +13,7 @@
     position: relative;
     height: 100%;
     object-fit: contain;
-    left: 1vw;
+    left: 2vw;
 }
 
 .nav-sections{
@@ -24,7 +21,7 @@
     position: relative;
     gap: 2vw;
     font-size: 1.4rem;
-    right: 2vw;
+    right: 5vw;
 }
 
 .nav-sections a{
