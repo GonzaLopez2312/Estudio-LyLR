@@ -8,7 +8,7 @@
     z-index: 1000;
 }
 
-.logoLyLR{
+.logoLyLR-header{
     display: inline-flex;
     position: relative;
     height: 100%;

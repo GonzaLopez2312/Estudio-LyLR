@@ -4,8 +4,8 @@ import './Header.css';
 function Header() {
     return(
         <header className='header'>
-        <div className='logoLyLR'>
-            <img src= "src/assets/images/logoLyLR.png" alt='LyLR' className='logoLyLR'/>
+        <div className='logoLyLR-header'>
+            <img src= "src/assets/images/logoLyLR.png" alt='LyLR' className='logoLyLR-header'/>
         </div>
         <nav className='nav-sections'>
             <a href='#inicio'>Inicio</a>
