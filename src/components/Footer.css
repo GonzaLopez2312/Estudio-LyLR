@@ -24,7 +24,7 @@
     align-items: flex-start;
     position: relative;
     left: 5vw;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .footer-sections a{
@@ -120,6 +120,7 @@ a:active{
         transform: none;
         left: auto;
         right: auto;
+        font-size: 1.2rem;
     }
 
     .footer-sections {
@@ -132,7 +133,13 @@ a:active{
         gap: 1rem;
     }
 
+    .actions img{
+    height: 3rem;
+    }
+
     .logo-LyLR-footer {
         width: 50%;
     }
+
+/*falta centrar el texto contenido en classname "sign" y ver si se puede agrandar un poco el tamaño del logo*/
 }
