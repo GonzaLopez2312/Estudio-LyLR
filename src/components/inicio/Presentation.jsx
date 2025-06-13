@@ -41,6 +41,35 @@ function Presentation() {
                     </div>
                 </div>
             </div>
+            <div className="contactenos-container">
+                <div className="titulo-contactenos">
+                    <h1 className="contactenos-title">Contáctenos</h1>
+                </div>
+                <div className="cuerpo-contactenos">
+                    <div className="formulario">
+                        <form className="form-contactenos">
+                            <label for="nombre-apellido">Nombre y Apellido</label><br></br>
+                            <input type="text" id="nombre-apellido" /><br></br>
+                            <label for="email">Email</label><br></br>
+                            <input type="email" id="email" /><br></br>
+                            <label for="telefono">Número de Teléfono</label><br></br>
+                            <input type="tel" id="telefono" /><br></br>
+                            <label for="motivo-consulta">Motivo de su Consulta</label><br></br>
+                            <textarea id="motivo-consulta" rows="5"/><br></br>
+                            <button className="button-form">ENVIAR</button>
+                        </form>
+                    </div>
+                    <div className="info-contacto">
+                        <div className="medios-contacto">
+                            <h4>Medios de Contacto</h4>
+                        </div>
+                        <div className="location">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
     );
