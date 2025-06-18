@@ -62,9 +62,36 @@ function Presentation() {
                     <div className="info-contacto">
                         <div className="medios-contacto">
                             <h4>Medios de Contacto</h4>
+                            <div className="contacto-telefono">
+                                <img className="telefono-icon" src="/src/assets/images/call.png" />
+                                <h3>+2614252221</h3>
+                            </div>
+                            <div className="contacto-email">
+                                <div className="email-1">
+                                    <img className="email-icon" src="src\assets\images\inicio\email-icon.png" />
+                                    <h4>MARCELO LOPEZ: marcelolopez@gmail.com</h4>
+                                </div>
+                                <div className="email-2">
+                                    <img className="email-icon" src="src\assets\images\inicio\email-icon.png" />
+                                    <h4>JUAN LOPEZ ROMERA: juanlopez@gmail.com</h4>
+                                </div>
+                                <div className="email-3">
+                                    <img className="email-icon" src="src\assets\images\inicio\email-icon.png" />
+                                    <h4>MARCELO LOPEZ ROMERA: marcelolopezromera@gmail.com</h4>
+                                </div>
+                            </div> 
+                            <div className="address">
+                                <img className="address-icon" src="src\assets\images\inicio\address-icon.png" />
+                                <h4>Avenida España 123, Mendoza, Mendoza, Argentina</h4>
+                            </div>                           
                         </div>
                         <div className="location">
-
+                            <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.089203748968!2d-68.84584137900603!3d-32.895809692232035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091106860473%3A0x3536d453ff550600!2sEstudio%20Jur%C3%ADdico%20Contable%20Lopez%20y%20L%C3%B3pez%20Romera!5e0!3m2!1ses-419!2sar!4v1750288071700!5m2!1ses-419!2sar" 
+                            allowfullscreen
+                            loading="lazy" 
+                            referrerPolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
                     </div>
                 </div>
