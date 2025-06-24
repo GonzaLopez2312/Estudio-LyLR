@@ -1,5 +1,7 @@
 import "./Presentation.css";
 import ciudadImg from "/src/assets/images/descarga.jpg";
+import Carousel from 'react-bootstrap/Carousel';
+
 
 
 
@@ -24,7 +26,30 @@ function Presentation() {
                     <h2>Estudio Conformado por Profesionales de Abogacía y Contabilidad especialistas en los siguientes servicios</h2>
                 </div>
                 <div className="services-provided">
-                    <div className="service1">
+                    <Carousel>
+                        <Carousel.Item interval={2000}>
+                            <h4>Asesoramiento Impositivo</h4>
+                            <img className="service1-img" src="src\assets\images\inicio\service1.png" />
+                            <Carousel.Caption>
+                            </Carousel.Caption>
+                            <p>Te ayudamos a cumplir con sus obligaciones fiscales de manera eficiente y conforme a la ley</p>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <h4>Derecho Laboral</h4>
+                            <img className="service1-img" src="src\assets\images\inicio\service2.png" />
+                            <Carousel.Caption>
+                            </Carousel.Caption>
+                            <p>Te asesoramos en necesidades contratos de trabajo, condiciones de trabajo, salario, jornada laboral, vacaciones y terminación de la relación laboral</p>
+                        </Carousel.Item>
+                        <Carousel.Item interval={2000}>
+                            <h4>Concursos y Quiebras</h4>
+                            <img className="service1-img" src="src\assets\images\inicio\service3.png" />
+                            <Carousel.Caption>
+                            </Carousel.Caption>
+                            <p>Especialistas en buscar un acuerdo entre el deudor y sus acreedores para reestructurar las deudas y evitar la quiebra</p>
+                        </Carousel.Item>
+                    </Carousel>
+                    {/*<div className="service1">
                         <h4>Asesoramiento Impositivo</h4>
                         <img className="service1-img" src="src\assets\images\inicio\service1.png" />
                         <p>Te ayudamos a cumplir con sus obligaciones fiscales de manera eficiente y conforme a la ley</p>
@@ -39,6 +64,7 @@ function Presentation() {
                         <img className="service1-img" src="src\assets\images\inicio\service3.png" />
                         <p>Especialistas en buscar un acuerdo entre el deudor y sus acreedores para reestructurar las deudas y evitar la quiebra</p>
                     </div>
+                    */}
                 </div>
             </div>
             <div className="contactenos-container">
@@ -55,7 +81,7 @@ function Presentation() {
                             <label for="telefono">Número de Teléfono</label><br></br>
                             <input type="tel" id="telefono" /><br></br>
                             <label for="motivo-consulta">Motivo de su Consulta</label><br></br>
-                            <textarea id="motivo-consulta" rows="5"/><br></br>
+                            <textarea id="motivo-consulta" rows="5" /><br></br>
                             <button className="button-form">ENVIAR</button>
                         </form>
                     </div>
@@ -79,18 +105,18 @@ function Presentation() {
                                     <img className="email-icon" src="src\assets\images\inicio\email-icon.png" />
                                     <h4>MARCELO LOPEZ ROMERA: marcelolopezromera@gmail.com</h4>
                                 </div>
-                            </div> 
+                            </div>
                             <div className="address">
                                 <img className="address-icon" src="src\assets\images\inicio\address-icon.png" />
                                 <h4>Avenida España 123, Mendoza, Mendoza, Argentina</h4>
-                            </div>                           
+                            </div>
                         </div>
                         <div className="location">
-                            <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.089203748968!2d-68.84584137900603!3d-32.895809692232035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091106860473%3A0x3536d453ff550600!2sEstudio%20Jur%C3%ADdico%20Contable%20Lopez%20y%20L%C3%B3pez%20Romera!5e0!3m2!1ses-419!2sar!4v1750288071700!5m2!1ses-419!2sar" 
-                            allowfullscreen
-                            loading="lazy" 
-                            referrerPolicy="no-referrer-when-downgrade">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.089203748968!2d-68.84584137900603!3d-32.895809692232035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e091106860473%3A0x3536d453ff550600!2sEstudio%20Jur%C3%ADdico%20Contable%20Lopez%20y%20L%C3%B3pez%20Romera!5e0!3m2!1ses-419!2sar!4v1750288071700!5m2!1ses-419!2sar"
+                                allowfullscreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
                     </div>

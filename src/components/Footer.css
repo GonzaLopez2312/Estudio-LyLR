@@ -106,7 +106,7 @@ a:active{
 
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
     .footer-top {
         flex-direction: column;
         align-items: center;
@@ -142,6 +142,4 @@ a:active{
     .logo-LyLR-footer {
         width: 30%;
     }
-
-/*falta centrar el texto contenido en classname "sign" y ver si se puede agrandar un poco el tamaño del logo*/
 }
