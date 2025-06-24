@@ -10,15 +10,17 @@
 }
 
 .logo-LyLR-header{
-    display: flex;
+    display: inline-flex;
     position: relative;
-    height: 200px;
+    height: 180px;
     box-sizing: border-box;
+    top: 10px;
     left: 2vw;
 }
 
 .logoLyLR-header{
-    height: 90%;
+    align-items: center;
+    height: 80%;
     object-fit: contain;
 }
 
@@ -26,7 +28,7 @@
     display: inline-flex;
     position: relative;
     gap: 2vw;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     right: 5vw;
 }
 

@@ -24,7 +24,7 @@
     align-items: flex-start;
     position: relative;
     left: 5vw;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 
 .footer-sections a{
@@ -49,7 +49,7 @@
 }
 
 .actions img{
-    height: 5rem;
+    height: 4rem;
 }
 
 .logo-LyLR-footer{
@@ -77,12 +77,13 @@
     position: relative;
     height: 20%;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 hr{
     border: 1px solid black;
     width: 90%;
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
 }
 
 h6{
@@ -124,6 +125,7 @@ a:active{
     }
 
     .footer-sections {
+        margin-top: 10px;
         align-items: center;
     }
 
@@ -138,7 +140,7 @@ a:active{
     }
 
     .logo-LyLR-footer {
-        width: 50%;
+        width: 30%;
     }
 
 /*falta centrar el texto contenido en classname "sign" y ver si se puede agrandar un poco el tamaño del logo*/
