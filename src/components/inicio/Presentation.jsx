@@ -1,6 +1,6 @@
 import "./Presentation.css";
 import ciudadImg from "/src/assets/images/descarga.jpg";
-import Carousel from 'react-bootstrap/Carousel';
+import Services from './Services';
 
 
 
@@ -25,47 +25,7 @@ function Presentation() {
                     <h4>Asesoramiento Legal y Contable</h4>
                     <h2>Estudio Conformado por Profesionales de Abogacía y Contabilidad especialistas en los siguientes servicios</h2>
                 </div>
-                <div className="services-provided">
-                    <Carousel>
-                        <Carousel.Item interval={2000}>
-                            <h4>Asesoramiento Impositivo</h4>
-                            <img className="service1-img" src="src\assets\images\inicio\service1.png" />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                            <p>Te ayudamos a cumplir con sus obligaciones fiscales de manera eficiente y conforme a la ley</p>
-                        </Carousel.Item>
-                        <Carousel.Item interval={2000}>
-                            <h4>Derecho Laboral</h4>
-                            <img className="service1-img" src="src\assets\images\inicio\service2.png" />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                            <p>Te asesoramos en necesidades contratos de trabajo, condiciones de trabajo, salario, jornada laboral, vacaciones y terminación de la relación laboral</p>
-                        </Carousel.Item>
-                        <Carousel.Item interval={2000}>
-                            <h4>Concursos y Quiebras</h4>
-                            <img className="service1-img" src="src\assets\images\inicio\service3.png" />
-                            <Carousel.Caption>
-                            </Carousel.Caption>
-                            <p>Especialistas en buscar un acuerdo entre el deudor y sus acreedores para reestructurar las deudas y evitar la quiebra</p>
-                        </Carousel.Item>
-                    </Carousel>
-                    {/*<div className="service1">
-                        <h4>Asesoramiento Impositivo</h4>
-                        <img className="service1-img" src="src\assets\images\inicio\service1.png" />
-                        <p>Te ayudamos a cumplir con sus obligaciones fiscales de manera eficiente y conforme a la ley</p>
-                    </div>
-                    <div className="service2">
-                        <h4>Derecho Laboral</h4>
-                        <img className="service1-img" src="src\assets\images\inicio\service2.png" />
-                        <p>Te asesoramos en necesidades contratos de trabajo, condiciones de trabajo, salario, jornada laboral, vacaciones y terminación de la relación laboral</p>
-                    </div>
-                    <div className="service3">
-                        <h4>Concursos y Quiebras</h4>
-                        <img className="service1-img" src="src\assets\images\inicio\service3.png" />
-                        <p>Especialistas en buscar un acuerdo entre el deudor y sus acreedores para reestructurar las deudas y evitar la quiebra</p>
-                    </div>
-                    */}
-                </div>
+                <Services />
             </div>
             <div className="contactenos-container">
                 <div className="titulo-contactenos">
