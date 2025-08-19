@@ -1,14 +1,18 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
+
 
 function Footer() {
     return (
         <footer className="footer">
             <div className="footer-top">
                 <nav className="footer-sections">
-                    <a href="#inicio">Inicio</a>
-                    <a href="#nosotros">Nosotros</a>
-                    <a href="#servicios">Servicios</a>
-                    <a href="#contacto">Contacto</a>
+                    <ul>
+                        <li><Link to="/">Inicio</Link></li>
+                        <li><Link to="/services">Servicios</Link></li>
+                        <li><Link to="/aboutus">Nosotros</Link></li>
+                        <li><Link to="/contacts">Contacto</Link></li>
+                    </ul>
                 </nav>
                 <nav className="actions">
                     <img src="/src/assets/images/call.png" alt="Llamá" />
